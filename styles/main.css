@@ -4,6 +4,7 @@
 *{
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 ::selection{
@@ -31,6 +32,12 @@ nav{
 p{
 	line-height: 1.5em;
 	padding: 4px 10px;
+	margin-bottom: 20px;
+}
+
+article p::first-letter{
+	font-size: 140%;
+    color: black;
 }
 
 .menu li{
@@ -78,13 +85,19 @@ p{
 }
 
 article{
-	background-color: grey;
+	background-color: lightGray;
 	margin-bottom: 16px;
 }
 
 article a{
-	color:white;
+	color:darkBlue;
 	font-weight: bold;
+}
+
+article li{
+	font-family: Arial, sans-serif;
+	list-style-type: none;
+	margin-left: 20px;
 }
 
 .text p{
@@ -92,7 +105,7 @@ article a{
 }
 
 .text{
-	background-color: lightGrey;
+	background-color: #F0F0F0;
 	padding: 6px;
 	color: #090903;
 }
@@ -104,6 +117,10 @@ h2{
 	color: white;
 	margin: 0px;
 	color: #090903;
+}
+
+h3{
+	margin-bottom: 24px;
 }
 
 .citation{
