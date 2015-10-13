@@ -217,14 +217,16 @@ footer{
 	text-align: center;
 	font-family: Tahoma, sans-serif;
 	color: white;
-	height: 140px;
 	clear: both;
     margin-bottom: 0;
     bottom: 0;
     width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .lp-footer{
+	height: 140px;
 	position:fixed;
 }
 
