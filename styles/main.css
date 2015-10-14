@@ -177,7 +177,7 @@ h3{
 
 @media screen and (max-width: 600px){
 	.right{
-	display:block;
+		display:block;
 	}
 	.subscribe{
 		width: 96%;
