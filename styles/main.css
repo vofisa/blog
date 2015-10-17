@@ -177,15 +177,20 @@ h3{
 
 @media screen and (max-width: 600px){
 	.right{
-		display:block;
+		display:inline-block;
+		margin: 6px 4px;
 	}
 	.subscribe{
 		width: 96%;
 		margin-bottom: 10px;
 	}
 	.blog{
-		display:block;
+		display:inline-block;
 		width: 100%;
+		margin: 0;
+	}
+	#site-title{
+		font-size: 1em;
 	}
 }
 
