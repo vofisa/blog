@@ -96,7 +96,7 @@ article{
 
 article a{
 	color: white;
-	background-color: #26aeec;
+	background-color: #04B486;
 	font-weight: bold;
 	padding: 3px;
 	text-decoration: none;
@@ -136,8 +136,8 @@ h1{
 
 h3{
 	margin-bottom: 24px;
-	color: white;
-	background-color: #26aeec;
+	color: #26aeec;
+	background-color: white;
 	display: inline-block;
 	padding: 3px;
 }
@@ -190,7 +190,7 @@ h3{
 		margin: 0;
 	}
 	#site-title{
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 }
 
