@@ -92,11 +92,12 @@ article{
 	background-color: lightGray;
 	margin-top: 10px;
 	margin-bottom: 26px;
+	border-radius: 20px 20px;
 }
 
 article a{
 	color: white;
-	background-color: #04B486;
+	background-color: #26aeec;
 	font-weight: bold;
 	padding: 3px;
 	text-decoration: none;
@@ -123,6 +124,7 @@ article li{
 	background-color: #F0F0F0;
 	padding: 6px;
 	color: #090903;
+	border-radius: 0 0 20px 20px;
 }
 
 h1{
@@ -162,7 +164,7 @@ h3{
 	width: 27%;
 	padding-left: 6px;
 	padding-right: 6px;
-	border: 3px dotted #26aeec;
+	border: 3px dashed #26aeec;
 	border-radius: 4px;
 	text-align: center;
 	margin-left: auto;
@@ -175,24 +177,6 @@ h3{
 	margin-right: 8px;
 }
 
-@media screen and (max-width: 600px){
-	.right{
-		display:inline-block;
-		margin: 6px 4px;
-	}
-	.subscribe{
-		width: 96%;
-		margin-bottom: 10px;
-	}
-	.blog{
-		display:inline-block;
-		width: 100%;
-		margin: 0;
-	}
-	#site-title{
-		font-size: 0.8em;
-	}
-}
 
 #mc_embed_signup{
 	background:white;
@@ -231,7 +215,7 @@ footer{
 }
 
 .lp-footer{
-	height: 140px;
+	min-height: 140px;
 	position:fixed;
 }
 
@@ -253,5 +237,31 @@ footer{
 	background-color: white;
 	border: 2px solid #26aeec;
 	margin-left: 15px;
-	padding: 7px;
+	padding: 7px 14px;
+}
+
+@media screen and (max-width: 600px){
+	.right{
+		display:inline-block;
+		margin: 6px 4px;
+	}
+	.subscribe{
+		width: 96%;
+		margin-bottom: 10px;
+	}
+	.blog{
+		display:inline-block;
+		width: 100%;
+		margin: 0;
+	}
+	#site-title{
+		font-size: 0.8em;
+	}
+	a, .button{
+		min-width: 48px;
+		min-height: 48px;
+	}
+	.lp-footer{
+		position: static;
+	}
 }
