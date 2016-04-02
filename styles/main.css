@@ -334,6 +334,36 @@ footer{
 	display: block;
 }
 
+.landingpage #site-title{
+	display:inline-block;
+	font-size: 0.78em;
+}
+
+.landingpage #site-subtitle{
+	display: inline-block;
+}
+
+.landingpage h1{
+	color: white;
+	font-family: sans-serif;
+	font-size: 1.5em;
+	padding-top: 1.5em;
+}
+
+.landingpage p{
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+}
+
+.landingpage a{
+	color: #26aeec;
+}
+
+footer a{
+	color: #26aeec;
+}
+
 .tagline{
 	text-align: center;
 }
