@@ -184,6 +184,18 @@ h1{
 	background-color: #003333;
 }
 
+.otnosno{
+	background-color: #ffcc00;
+}
+
+.otnosno #mc_embed_signup{
+	background-color: #ffcc00;
+}
+
+.otnosno .subscribe{
+	background-color: #ffcc00;
+}
+
 .obuchenie h1{
 	color: white;
 	min-height: 60px;
