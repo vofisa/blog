@@ -259,7 +259,7 @@ h1{
 	padding: 0 30px;
 	color: #003333;
 	text-shadow: none;
-	display: inline;
+	display: inline!important;
 }
 
 .glavna label{
