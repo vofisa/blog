@@ -43,6 +43,16 @@ body{
 	text-shadow: none;
 }
 
+.belezka{
+	color: slategray;
+	font-size: 0.6em;
+	padding-left: 30px;
+}
+
+.right .belezka{
+	color:white;
+}
+
 .welcome-mat a{
 	color: #26aeec;
 	text-decoration: none;
@@ -251,6 +261,10 @@ h1{
 	text-shadow: none;
 }
 
+.glavna label{
+	padding: 0;
+}
+
 .otnosno{
 	background-color: #ffcc00;
 }
@@ -269,7 +283,7 @@ h1{
 }
 
 .obuchenie .nonclick{
-	background-color: gray;
+	background-color: #9eb1b1;
 }
 
 .obuchenie article{
@@ -444,6 +458,22 @@ footer{
 	color: #26aeec;
 }
 
+.showit {
+    max-width: 46%;
+}
+
+.showit p{
+    color: #090903;	
+}
+
+.showit a{
+	color:white;
+}
+
+.showit a:visited{
+	color:white;
+}
+
 footer a{
 	color: #26aeec;
 }
@@ -475,11 +505,18 @@ footer a{
 		width: 96%;
 		margin-bottom: 10px;
 	}
+
+	article.showit{
+		max-width: 100%;
+		margin: 20px;
+	}
+
 	.blog{
 		display:inline-block;
 		width: 100%;
 		margin: 0;
 	}
+
 	#site-title{
 		font-size: 0.8em;
 	}
