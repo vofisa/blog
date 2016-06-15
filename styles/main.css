@@ -259,6 +259,7 @@ h1{
 	padding: 0 30px;
 	color: #003333;
 	text-shadow: none;
+	display: inline;
 }
 
 .glavna label{
@@ -322,10 +323,6 @@ h1{
 .obuchenie label{
 	color: white;
 	font-size: 1.8em;
-}
-
-.obuchenie #mc_embed_signup label {
-    display: inline;
 }
 
 .moduli {
