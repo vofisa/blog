@@ -324,6 +324,10 @@ h1{
 	font-size: 1.8em;
 }
 
+.obuchenie #mc_embed_signup label {
+    display: inline;
+}
+
 .moduli {
 	width: 80%;
 	margin: 30px auto;
