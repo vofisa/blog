@@ -38,6 +38,11 @@ body{
 	border: none;
 }
 
+.posledno{
+	width: 80%;
+	margin:0 auto;
+}
+
 .welcome-mat label{
 	color:#26aeec;
 	text-shadow: none;
@@ -159,6 +164,26 @@ sup{
 
 .bezcvet{
 	background-color: transparent;
+}
+
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	min-width: 60%;
+}
+
+th {
+	background-color: #26aeec;
+	color: white;
+	font-family: Arial, sans-serif;
+	height: 1.8em;
+}
+
+td{
+	font-family: Arial,sans-serif;
+	text-align: center;
+	color: #9eb1b1;
+	font-weight: bold;
 }
 
 article{
@@ -461,6 +486,12 @@ footer{
 
 .showit {
     max-width: 46%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.text.showit{
+	
 }
 
 .showit p{
