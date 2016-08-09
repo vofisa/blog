@@ -194,13 +194,21 @@ article{
 }
 
 article a{
-	color: white;
-	background-color: #26aeec;
+	color: #26aeec;
 	font-weight: bold;
 	padding: 3px;
 	text-decoration: none;
 }
 
+
+.obuchenie a{
+	color: #090903;
+}
+
+a.prsl{
+	color: white;
+	background-color: #26aeec;	
+}
 article a:hover{
 	text-decoration: underline;
 }
@@ -471,7 +479,7 @@ footer{
 	color: white;
 	font-family: sans-serif;
 	font-size: 1.5em;
-	padding-top: 1.5em;
+	/*padding-top: 1.5em;*/
 }
 
 .landingpage p{
@@ -490,20 +498,20 @@ footer{
     padding-right: 0;
 }
 
-.text.showit{
-	
-}
+/*article.showit{
+	min-height: 450px;
+}*/
 
 .showit p{
-    color: #090903;	
+    color: slategray;
 }
 
 .showit a{
-	color:white;
+	color: #090903;
 }
 
 .showit a:visited{
-	color:white;
+	color: #090903;
 }
 
 footer a{
