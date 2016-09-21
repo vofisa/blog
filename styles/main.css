@@ -24,7 +24,7 @@ body{
 
 .welcome-mat{
 	background-color: #26aeec;
-	background-image: url('../images/background-main.png');
+	background-image: url('../images/background-main.jpg');
 	background-size: cover;
 }
 
@@ -65,7 +65,7 @@ body{
 }
 
 .more{
-	background-color: white;
+	background-color: #26aeec;
 	padding: 6px 12px;
 	border-radius: 6px;
 	letter-spacing: 4px;
@@ -489,9 +489,13 @@ footer{
 }
 
 .landingpage p{
-	text-align: center;
-	color: white;
+	/*color: white;*/
 	font-family: sans-serif;
+}
+
+.landingpage h4{
+	text-align: center;
+	color: slategray;
 }
 
 .landingpage a{
@@ -554,7 +558,7 @@ footer a{
 
 	article.showit{
 		max-width: 100%;
-		margin: 20px;
+		margin: 20px 0 20px 0;
 	}
 
 	.blog{
