@@ -400,7 +400,7 @@ h3{
 	width: 27%;
 	padding-left: 6px;
 	padding-right: 6px;
-	border: 3px dashed #26aeec;
+	border: 15px solid #26aeec;
 	border-radius: 4px;
 	margin-left: auto;
 	margin-right: auto;
@@ -410,6 +410,13 @@ h3{
 .right{
 	float:left;
 	margin-right: 8px;
+}
+
+.materiali{
+	background-color: #26aeec;
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
 }
 
 .obuchenie .right{
