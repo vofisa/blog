@@ -293,6 +293,9 @@ h1{
 	color: #003333;
 	text-shadow: none;
 	display: inline!important;
+	text-transform: none;
+	font-weight: normal;
+	line-height: 1.3em;
 }
 
 .glavna label{
@@ -451,9 +454,11 @@ input[type="email"]{
 label{
 	font-size: 1.4em;
 	color: white; /*darkRed: #8C1C1C*/
-	text-shadow: 1px 1px black;
-	line-height: 1.3em;
+	text-shadow: 0 0 3px black;
+	font-weight: bold;
+	line-height: 1.6em;
 	text-align: right;
+	text-transform: uppercase;
 }
 
 footer{
