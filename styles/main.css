@@ -390,6 +390,11 @@ h3{
 	font-weight: bold;
 }
 
+.primerentekst{
+	margin: 0 40px 0 40px;
+	background-color: #EBF7FD;
+}
+
 .blog{
 	float: left;
 	width: 60%;
