@@ -19,7 +19,7 @@ html, body{
 }
 
 body{
-	background-color: slategray;
+	background-color: #436274;
 }
 
 .welcome-mat{
@@ -49,7 +49,7 @@ body{
 }
 
 .belezka{
-	color: slategray;
+	color: #436274;
 	font-size: 0.6em;
 	padding-left: 30px;
 }
@@ -404,7 +404,7 @@ h3{
 }
 
 .subscribe{
-	background-color: slategray; /*#EFF2FB*/
+	background-color: #436274; /*#EFF2FB*/
 	width: 27%;
 	padding-left: 6px;
 	padding-right: 6px;
@@ -441,7 +441,7 @@ h3{
 }
 
 #mc_embed_signup{
-	background: slategray;
+	background: #436274;
 	clear:left;
 	font:1em Helvetica,Arial,sans-serif;
 	padding:15px;
@@ -516,7 +516,7 @@ footer{
 
 .landingpage h4{
 	text-align: center;
-	color: slategray;
+	color: #436274;
 }
 
 .landingpage a{
@@ -534,7 +534,7 @@ footer{
 }*/
 
 .showit p{
-    color: slategray;
+    color: #436274;
 }
 
 .showit a{
